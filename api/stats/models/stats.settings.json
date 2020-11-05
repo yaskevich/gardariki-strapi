@@ -1,0 +1,25 @@
+{
+  "info": {
+    "name": "Stats"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "cities": {
+      "model": "city"
+    },
+    "qty": {
+      "type": "biginteger"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "src": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "stats"
+}

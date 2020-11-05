@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "episodes",
+  "info": {
+    "name": "Episodes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "cities": {
+      "model": "city"
+    },
+    "event": {
+      "model": "events"
+    },
+    "unit_be": {
+      "type": "string"
+    },
+    "unit_wiki_id": {
+      "type": "string"
+    },
+    "date_from": {
+      "type": "string"
+    },
+    "unit_en": {
+      "type": "string"
+    }
+  }
+}

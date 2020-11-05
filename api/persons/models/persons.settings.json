@@ -1,0 +1,34 @@
+{
+  "connection": "default",
+  "collectionName": "persons",
+  "info": {
+    "name": "Persons"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "city": {
+      "model": "city"
+    },
+    "wiki_id": {
+      "type": "string"
+    },
+    "events_be": {
+      "type": "string"
+    },
+    "def": {
+      "type": "string"
+    },
+    "data": {
+      "type": "json"
+    },
+    "events_en": {
+      "type": "string"
+    }
+  }
+}

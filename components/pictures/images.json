@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Images",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "title_be": {
+      "type": "string"
+    },
+    "title_en": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_pictures_images"
+}

@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "events",
+  "info": {
+    "name": "Events"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "code": {
+      "type": "string",
+      "required": false,
+      "unique": true
+    },
+    "name_be": {
+      "type": "string"
+    },
+    "name_en": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "connection": "default",
+  "collectionName": "orgs",
+  "info": {
+    "name": "Orgs"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "cities": {
+      "model": "city"
+    },
+    "title_be": {
+      "type": "string"
+    },
+    "addr_be": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "lat": {
+      "type": "float"
+    },
+    "lon": {
+      "type": "float"
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "addr_en": {
+      "type": "string"
+    }
+  }
+}

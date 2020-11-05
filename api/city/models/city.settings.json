@@ -1,0 +1,70 @@
+{
+  "connection": "default",
+  "collectionName": "cities",
+  "info": {
+    "name": "cities"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "wiki_id": {
+      "type": "string"
+    },
+    "osm_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "etym_be": {
+      "type": "richtext"
+    },
+    "legends_be": {
+      "type": "richtext"
+    },
+    "mentions_be": {
+      "type": "string"
+    },
+    "placenames": {
+      "collection": "placenames",
+      "via": "city"
+    },
+    "lead_be": {
+      "type": "text"
+    },
+    "photos": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "lat": {
+      "type": "float"
+    },
+    "lon": {
+      "type": "float"
+    },
+    "wiki_img": {
+      "type": "string"
+    },
+    "etym_en": {
+      "type": "richtext"
+    },
+    "legends_en": {
+      "type": "richtext"
+    },
+    "lead_en": {
+      "type": "text"
+    },
+    "mentions_en": {
+      "type": "text"
+    },
+    "cityview": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pictures.images"
+    }
+  }
+}

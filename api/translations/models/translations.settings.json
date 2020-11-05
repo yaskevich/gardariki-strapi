@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "translations",
+  "info": {
+    "name": "Translations"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "var": {
+      "type": "string"
+    },
+    "text_be": {
+      "type": "text"
+    },
+    "text_en": {
+      "type": "text"
+    },
+    "part": {
+      "type": "enumeration",
+      "enum": [
+        "card",
+        "home",
+        "map"
+      ]
+    }
+  }
+}

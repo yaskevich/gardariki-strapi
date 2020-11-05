@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/placenames",
+      "handler": "placenames.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/placenames/count",
+      "handler": "placenames.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/placenames/:id",
+      "handler": "placenames.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/placenames",
+      "handler": "placenames.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/placenames/:id",
+      "handler": "placenames.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/placenames/:id",
+      "handler": "placenames.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

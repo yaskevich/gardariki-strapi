@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "components_pictures_citypictures",
+  "info": {
+    "name": "Citypicture",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title_be": {
+      "type": "string"
+    },
+    "cityimage": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

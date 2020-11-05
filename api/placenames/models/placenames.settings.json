@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "placenames",
+  "info": {
+    "name": "Placenames"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "string"
+    },
+    "language": {
+      "model": "language"
+    },
+    "city": {
+      "via": "placenames",
+      "model": "city"
+    },
+    "standard": {
+      "type": "boolean"
+    }
+  }
+}

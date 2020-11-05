@@ -1,0 +1,6 @@
+{
+  "myCustomConfiguration": "This configuration is accessible through strapi.config.myCustomConfiguration",
+   "backendURL": "https://cms.gardariki.by",
+	"mainColor": "blue"
+
+}
